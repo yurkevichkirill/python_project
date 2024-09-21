@@ -27,7 +27,17 @@ print(35%6)
 #     print('Цикл окончен, i =', i)
 # print("Конец")
 
-print("%-10s %-10s %-10s" % ('papam1', 'papam2', 'papam3'))
+print("%7s %-10s %-10s" %('param1', 'param2', 'param3'))
+
+print('{}'.format(['el_1', 'el_2', 'el_3', 'el_4']))
+print("{:>30} {:>20} {:>20}".format('my_param_1', 'my_param_2',
+'my_param_3'))
+
+string = "abrakadbra"
+str_reverse = string[::-1]
+print(str_reverse)
+
+
 
 
 

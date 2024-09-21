@@ -1,4 +1,6 @@
 import sys
+import random
+
 
 n = int(input("Введите натуральное число n "))
 print(n)
@@ -19,5 +21,6 @@ for el in cube_list:
 print("Сумма элементов списка:", sum)
 print("Произведение элементов списка:", product)
 
-for el in reversed(cube_list):
-    print(el)
+a=[random.randint(5,10) for i in range(5)]
+print(a)
+
